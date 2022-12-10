@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div
-      className="md:px-20 lg:px-36 px-10 lg:my-36 md:my-24 sm:my-12 h-96"
+      className="md:px-20 lg:px-36 px-10 lg:my-28 md:my-24 sm:my-12 h-96 "
       data-aos="fade-up"
       data-aos-delay="40"
       data-aos-duration="1000"

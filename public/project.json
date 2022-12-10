@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "ResaleBikes",
+    "image": ".//assets/project1.png"
+  },
+  {
+    "id": 2,
+    "name": "Photography",
+    "image": ".//assets/project2.png"
+  },
+  {
+    "id": 3,
+    "name": "Learning",
+    "image": ".//assets/project3.png"
+  }
+]

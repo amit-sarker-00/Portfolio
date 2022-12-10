@@ -8,10 +8,10 @@ const Navbar = () => {
         <Link to="/home">HOME</Link>
       </li>
       <li className="hover:text-cyan-400">
-        <Link>ABOUT</Link>
+        <a href="#about">ABOUT</a>
       </li>
       <li className="hover:text-cyan-400">
-        <Link>BLOG</Link>
+        <Link to="/blogs">BLOGS</Link>
       </li>
 
       <li className="hover:text-cyan-400">
@@ -50,7 +50,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-600 rounded-box w-52 font-bold "
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-900    rounded-box w-52 font-bold border-2 border-cyan-400"
           >
             {menubar}
           </ul>
