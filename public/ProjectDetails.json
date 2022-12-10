@@ -1,26 +1,26 @@
 [
   {
     "name": "ResaleBikes",
+    "description": "●Three different categories show this website according to the User(user,seller,admin) ●Authentication with Google, email, and password.●Admin Route, Error Handling, Animation, and Toast.",
     "languages": ["React ", " MongoDB ", " Express JS ", " JWT"],
-    "image": "https://i.ibb.co/MCK3CrR/project1.png",
     "live side": "https://resaleholder.web.app/",
     "client side": "https://github.com/amit-sarker-00/resale-product-client-side",
     "server side": "https://github.com/amit-sarker-00/resale-product-server-side"
   },
   {
     "name": "Photography",
+    "description": "●Explore a review website and users can manage their reviews. ●Authentication with Google, Email, and Password.●Protected Route, Error Handling, Animation, and toast.",
     "languages": [" React ", " MongoDB ", " Firebase ", " JWT "],
     "live side": "https://wild-photo.web.app/",
     "client side": "https://github.com/amit-sarker-00/service-review",
-    "server side": "https://github.com/amit-sarker-00/service-review-server-side",
-    "image": "https://i.ibb.co/3FKJM0y/project2.png"
+    "server side": "https://github.com/amit-sarker-00/service-review-server-side"
   },
   {
     "name": "Learning",
+    "description": "●Explore a Learning Platform website. ●Authentication with Google, Email, and Password.●Protected Route, Toast, Error Handling, Animation.",
     "languages": ["React", " MongoDB ", " Tailwind CSS ", " Firebase"],
     "live side": "https://educational-services-d9f7c.web.app/",
     "client side": "https://github.com/amit-sarker-00/Learning-client-side",
-    "server side": "https://github.com/amit-sarker-00/Learning-server-side",
-    "image": "https://i.ibb.co/xMg2Q7T/project3.png"
+    "server side": "https://github.com/amit-sarker-00/Learning-server-side"
   }
 ]

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../assests/portlogo.png";
 const Navbar = () => {
   const menubar = (
     <>
@@ -56,7 +56,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className=" text-xl font-bold">
-          PORTFOLIO
+          <img className="w-10 h-8" src={logo} alt="" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
