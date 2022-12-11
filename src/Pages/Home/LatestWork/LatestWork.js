@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const LatestWork = () => {
   const [websites, setWebsite] = useState([]);
-  console.log(websites);
   useEffect(() => {
     fetch("http://localhost:5000/projects")
       .then((res) => res.json())
@@ -56,7 +55,10 @@ const LatestWork = () => {
                   </a>
                 </h1>
               </div>
-              <Link className="bg-cyan-400 hover:bg-cyan-600 p-2 rounded-lg text-black font-bold text-xl bottom-0">
+              <Link
+                to={`/project/${website.name}`}
+                className="bg-cyan-400 hover:bg-cyan-600 p-2 rounded-lg text-black font-bold text-xl bottom-0"
+              >
                 Details
               </Link>
             </div>

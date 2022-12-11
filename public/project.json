@@ -3,24 +3,33 @@
     "name": "ResaleBikes",
     "languages": ["React ", " MongoDB ", " Express JS ", " JWT"],
     "image": "https://i.ibb.co/MCK3CrR/project1.png",
-    "live side": "https://resaleholder.web.app/",
-    "client side": "https://github.com/amit-sarker-00/resale-product-client-side",
-    "server side": "https://github.com/amit-sarker-00/resale-product-server-side"
+    "image2": "https://i.ibb.co/647yCkp/project1-2.png",
+    "image3": "https://i.ibb.co/B63Q9rQ/project1.png",
+    "liveside": "https://resaleholder.web.app/",
+    "clientside": "https://github.com/amit-sarker-00/resale-product-client-side",
+    "serverside": "https://github.com/amit-sarker-00/resale-product-server-side",
+    "description": "●Three different categories show this website according to the User(user,seller,admin) ●Authentication with Google, email, and password.●Admin Route, Error Handling, Animation, and Toast."
   },
   {
     "name": "Photography",
     "languages": [" React ", " MongoDB ", " Firebase ", " JWT "],
-    "live side": "https://wild-photo.web.app/",
-    "client side": "https://github.com/amit-sarker-00/service-review",
-    "server side": "https://github.com/amit-sarker-00/service-review-server-side",
-    "image": "https://i.ibb.co/3FKJM0y/project2.png"
+    "liveside": "https://wild-photo.web.app/",
+    "clientside": "https://github.com/amit-sarker-00/service-review",
+    "serverside": "https://github.com/amit-sarker-00/service-review-server-side",
+    "image": "https://i.ibb.co/3FKJM0y/project2.png",
+    "image2": "https://i.ibb.co/7b7CZNG/project2.png",
+    "image3": "https://i.ibb.co/qN0Jmjd/project2-2.png",
+    "description": "●Explore a review website and users can manage their reviews. ●Authentication with Google, Email, and Password.●Protected Route, Error Handling, Animation, and toast."
   },
   {
     "name": "Learning",
     "languages": ["React", " MongoDB ", " Tailwind CSS ", " Firebase"],
-    "live side": "https://educational-services-d9f7c.web.app/",
-    "client side": "https://github.com/amit-sarker-00/Learning-client-side",
-    "server side": "https://github.com/amit-sarker-00/Learning-server-side",
-    "image": "https://i.ibb.co/xMg2Q7T/project3.png"
+    "liveside": "https://educational-services-d9f7c.web.app/",
+    "clientside": "https://github.com/amit-sarker-00/Learning-client-side",
+    "serverside": "https://github.com/amit-sarker-00/Learning-server-side",
+    "image": "https://i.ibb.co/xMg2Q7T/project3.png",
+    "image2": "https://i.ibb.co/J3nq0sk/project3.png",
+    "image3": "https://i.ibb.co/ChWcyZ5/project3-2.png",
+    "description": "●Explore a Learning Platform website. ●Authentication with Google, Email, and Password.●Protected Route, Toast, Error Handling, Animation."
   }
 ]

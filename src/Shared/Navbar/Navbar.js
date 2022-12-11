@@ -15,7 +15,7 @@ const Navbar = () => {
       </li>
 
       <li className="hover:text-cyan-400">
-        <Link>SKILL</Link>
+        <a href="#skills">SKILL</a>
       </li>
 
       <li className="hover:text-cyan-400">
@@ -25,7 +25,7 @@ const Navbar = () => {
   );
   return (
     <div
-      className="navbar bg-gray-900 py-5 md:px-20"
+      className="navbar bg-gray-900 py-5 md:px-20 "
       data-aos="fade-down"
       data-aos-delay="40"
       data-aos-duration="1000"
@@ -49,8 +49,8 @@ const Navbar = () => {
             </svg>
           </label>
           <ul
-            tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-900    rounded-box w-52 font-bold border-2 border-cyan-400"
+            tabIndex={1}
+            className=" bg-gray-900 menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52 font-bold border-2  border-cyan-400"
           >
             {menubar}
           </ul>

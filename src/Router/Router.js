@@ -12,7 +12,12 @@ export const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home></Home> },
       { path: "/home", element: <Home></Home> },
-      { path: "/project/:id", element: <ProjectDetails></ProjectDetails> },
+      {
+        path: "/project/:name",
+        element: <ProjectDetails></ProjectDetails>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/project/${params.name}`),
+      },
       { path: "/blogs", element: <Blogs></Blogs> },
       { path: "/contactme", element: <ContactMe></ContactMe> },
     ],
