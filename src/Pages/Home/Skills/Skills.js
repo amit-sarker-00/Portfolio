@@ -6,7 +6,12 @@ const Skills = () => {
       <h1 className="my-10 text-cyan-400 font-bold text-xl text-center">
         Skills
       </h1>
-      <div className="flex gap-5 flex-wrap">
+      <div
+        className="flex gap-5 flex-wrap"
+        data-aos="fade-up"
+        data-aos-delay="40"
+        data-aos-duration="1000"
+      >
         <div className="border-2 border-cyan-400 w-32 shadow text-center rounded-3xl">
           <h2 className="my-2 font-bold">HTML</h2>
           <div
@@ -97,7 +102,7 @@ const Skills = () => {
             90%
           </div>
         </div>
-        <div className="border-2 border-cyan-400 sm:w-32 shadow text-center rounded-3xl">
+        <div className="border-2 border-cyan-400 w-32 shadow text-center rounded-3xl">
           <h2 className="my-2 font-bold">Axios</h2>
           <div
             className="w-20 mb-4 radial-progress bg-cyan-400 text-cyan-900 border-4 border-cyan-400"
