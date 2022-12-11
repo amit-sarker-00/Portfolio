@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const LatestWork = () => {
   const [websites, setWebsite] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/projects")
+    fetch("https://portfolio-server-side-chi.vercel.app/projects")
       .then((res) => res.json())
       .then((data) => setWebsite(data));
   }, [setWebsite]);

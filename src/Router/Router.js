@@ -16,7 +16,9 @@ export const router = createBrowserRouter([
         path: "/project/:name",
         element: <ProjectDetails></ProjectDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/project/${params.name}`),
+          fetch(
+            `https://portfolio-server-side-chi.vercel.app/project/${params.name}`
+          ),
       },
       { path: "/blogs", element: <Blogs></Blogs> },
       { path: "/contactme", element: <ContactMe></ContactMe> },
