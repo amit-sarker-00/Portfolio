@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="footer footer-center p-10 bg-gray-900  rounded">
         <div className="grid grid-flow-col gap-4">
           <a href="#about" className="link link-hover">
-            About us
+            About Me
           </a>
           <Link to="/contactme" className="link link-hover">
             Contact
