@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
@@ -30,9 +29,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/amitsarker0/">
               <FaLinkedin className="w-8 h-8 text-cyan-400"></FaLinkedin>
             </a>
-            <a href="tel:+8801746889508">
-              <FaWhatsapp className="w-8 h-8 text-cyan-400"></FaWhatsapp>
-            </a>
+
             <a href="https://github.com/amit-sarker-00">
               <FaGithub className="w-8 h-8 text-cyan-400"></FaGithub>
             </a>

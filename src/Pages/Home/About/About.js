@@ -6,12 +6,12 @@ const About = () => {
     <div>
       <p
         id="about"
-        className="text-cyan-400 font-bold text-center mb-20 text-xl"
+        className="text-cyan-400 font-bold text-center md:mb-20 mb-10 text-xl"
       >
         About
       </p>
       <div
-        className=" lg:px-36 px-10 grid grid-cols-1  md:grid-cols-2 gap-10  md:px-20 mb-20"
+        className=" lg:px-36 px-10 grid grid-cols-1  md:grid-cols-2 gap-10  md:px-20 md:mb-20 mb-10"
         data-aos="fade-up"
         data-aos-delay="40"
         data-aos-duration="1000"

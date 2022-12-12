@@ -9,7 +9,7 @@ const LatestWork = () => {
   }, [setWebsite]);
   return (
     <div>
-      <div className="mb-16 mt-32">
+      <div className="mb:mb-16 mb-8 mb:mt-32 mt-10">
         <h1 className="text-xl font-bold text-cyan-500 text-center">
           Latest work
         </h1>

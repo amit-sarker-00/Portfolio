@@ -2,12 +2,12 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="mx-20 my-32" id="skills">
+    <div className="md:mx-20 mx-2 md:my-32 my-12 " id="skills">
       <h1 className="my-10 text-cyan-400 font-bold text-xl text-center">
         Skills
       </h1>
       <div
-        className="flex gap-5 flex-wrap"
+        className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 "
         data-aos="fade-up"
         data-aos-delay="40"
         data-aos-duration="1000"
