@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { BallTriangle } from "react-loader-spinner";
+
 const LatestWork = () => {
   const [websites, setWebsite] = useState([]);
   useEffect(() => {
@@ -7,6 +9,18 @@ const LatestWork = () => {
       .then((res) => res.json())
       .then((data) => setWebsite(data));
   }, [setWebsite]);
+  if (websites?.length >= 0) {
+    <BallTriangle
+      height={200}
+      width={200}
+      radius={5}
+      color="#22d3ee"
+      ariaLabel="ball-triangle-loading"
+      wrapperClass={{}}
+      wrapperStyle=""
+      visible={true}
+    />;
+  }
   return (
     <div>
       <div className="mb:mb-16 mb-8 mb:mt-32 mt-10">

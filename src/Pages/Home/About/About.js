@@ -32,9 +32,12 @@ const About = () => {
             >
               Get Resume
             </a>
-            <Link className="  border-cyan-400 border-2 sm:py-3 py-2 px-1 sm:px-4 font-bold">
+            <a
+              href="#skills"
+              className="  border-cyan-400 border-2 sm:py-3 py-2 px-1 sm:px-4 font-bold"
+            >
               My Skills
-            </Link>
+            </a>
           </div>
         </div>
         <div>
