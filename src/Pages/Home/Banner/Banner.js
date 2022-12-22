@@ -39,7 +39,7 @@ const Banner = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col gap-2 items-center sm:flex-row">
+          {/* <div className="flex flex-col gap-2 items-center sm:flex-row">
             <a
               href="https://drive.google.com/file/d/1EY7ocho6DCD1f2GpeLGDeDr_7IOCfQex/view?usp=sharing"
               className="  bg-cyan-400 py-2 sm:py-3 border-cyan-400 border-2 px-1 sm:px-4 font-bold text-black"
@@ -48,12 +48,11 @@ const Banner = () => {
             </a>
             <a
               href="#about"
-              aria-label=""
-              className=" border-cyan-400 border-2 py-2 px-4 font-bold"
+              className="  border-cyan-400 border-2 sm:py-3 py-2 px-1 sm:px-4 font-bold"
             >
               About Me
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

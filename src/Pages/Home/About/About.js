@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import photo from "../../../assests/myself.png";
 const About = () => {
   return (
