@@ -41,10 +41,8 @@ const Banner = () => {
           </div>
           <div className="flex flex-col gap-2 items-center sm:flex-row">
             <a
-              target="_blank"
-              rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1EY7ocho6DCD1f2GpeLGDeDr_7IOCfQex/view?usp=sharing"
-              className="bg-cyan-400 hover:bg-cyan-300 border-2 border-cyan-400 text-black py-2 px-4 font-bold "
+              className="  bg-cyan-400 py-2 sm:py-3 border-cyan-400 border-2 px-1 sm:px-4 font-bold text-black"
             >
               Get Resume
             </a>
