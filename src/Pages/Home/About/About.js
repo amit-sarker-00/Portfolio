@@ -2,19 +2,14 @@ import React from "react";
 import photo from "../../../assests/myself.png";
 const About = () => {
   return (
-    <div>
+    <div data-aos="fade-up" data-aos-delay="40" data-aos-duration="1000">
       <p
         id="about"
         className="text-cyan-400 font-bold text-center md:mb-20 mb-10 text-xl"
       >
         About
       </p>
-      <div
-        className=" lg:px-36 px-10 grid grid-cols-1  md:grid-cols-2 gap-10  md:px-20 md:mb-20 mb-10"
-        data-aos="fade-up"
-        data-aos-delay="40"
-        data-aos-duration="1000"
-      >
+      <div className=" lg:px-32 px-10 grid grid-cols-1  md:grid-cols-2 gap-10  md:px-20 md:mb-20 mb-10">
         <div>
           <p className="md:text-xl">
             Hello! I'm Amit Sarker, a passionate Full Stack Developer. I develop

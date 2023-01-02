@@ -31,11 +31,8 @@ const Navbar = () => {
       data-aos-duration="1000"
     >
       <div className="navbar-start">
-        <div className="dropdown">
-          <label
-            tabIndex={0}
-            className="btn btn-ghost lg:hidden z-50 bg-gray-900"
-          >
+        <div className="dropdown z-50">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden  bg-gray-900">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -53,7 +50,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={1}
-            className=" bg-gray-900 menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52 font-bold border-2  border-cyan-400"
+            className=" bg-gray-900 menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 font-bold border-2 border-cyan-400"
           >
             {menubar}
           </ul>
