@@ -19,7 +19,7 @@ const Navbar = () => {
       </li>
 
       <li className="hover:text-cyan-400">
-        <Link to="/contactme">CONTACT ME</Link>
+        <a href="#contact">CONTACT ME</a>
       </li>
     </>
   );

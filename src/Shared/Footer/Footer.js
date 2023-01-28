@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-center p-10 bg-gray-900  rounded">
+      <footer className="footer footer-center py-10">
         <div className="grid grid-flow-col gap-4">
           <a href="#about" className="link link-hover">
             About Me

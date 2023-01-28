@@ -22,7 +22,7 @@ const LatestWork = () => {
     />;
   }
   return (
-    <div>
+    <div className="lg:px-32 px-10">
       <div className="mb:mb-16 mb-8 mb:mt-32 mt-10">
         <h1 className="text-xl font-bold text-cyan-500 text-center">
           Latest work
@@ -31,9 +31,9 @@ const LatestWork = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-16 text-center sm:mx-5 mx-1">
         {websites?.map((website) => (
           <div key={website._id} className="" data-aos="fade-up">
-            <div className="card card-compact border  shadow-md  ">
-              <div className="">
-                <img className="rounded-xl" src={website.image} alt="" />
+            <div className=" border pb-5 rounded-md">
+              <div className="h-80 ">
+                <img className=" h-full w-full" src={website.image} alt="" />
               </div>
               <h1 className="text-xl font-bold mt-3">
                 website name:{website.name}
@@ -71,7 +71,7 @@ const LatestWork = () => {
               </div>
               <Link
                 to={`/project/${website.name}`}
-                className="bg-cyan-400 hover:bg-cyan-600 p-2 rounded-lg text-black font-bold text-xl bottom-0"
+                className="bg-cyan-400 hover:bg-cyan-600 rounded-md p-2 text-black font-bold text-xl"
               >
                 Details
               </Link>
