@@ -31,5 +31,24 @@
     "image2": "https://i.ibb.co/J3nq0sk/project3.png",
     "image3": "https://i.ibb.co/ChWcyZ5/project3-2.png",
     "description": "●Explore a Learning Platform website. ●Authentication with Google, Email, and Password.●Protected Route, Toast, Error Handling, Animation."
+  },
+  {
+    "name": "DaylightNews",
+    "languages": [
+      "JavaScript",
+      " Tailwind CSS ",
+      "React",
+      "NodeJS",
+      "Express JS",
+      " MongoDB ",
+      " Firebase Authentication"
+    ],
+    "liveside": "https://daylight-news-withteam.web.app/",
+    "clientside": "https://github.com/amit-sarker-00/DaylightNews.git",
+    "serverside": "https://github.com/amit-sarker-00/DaylightNews-serverside.git",
+    "image": "https://i.ibb.co/bBf08pQ/screencapture-daylight-news-withteam-web-app-2023-02-27-23-48-57.png",
+    "image2": "https://i.ibb.co/sFKfFCQ/screencapture-daylight-news-withteam-web-app-account-admin-profile-2023-02-27-23-54-13.png",
+    "image3": "https://i.ibb.co/syhDFzV/screencapture-daylight-news-withteam-web-app-gadgets-2023-02-27-23-50-44.png",
+    "description": "●Features: voting, search, reaction, comment, Google translation, currency converter,Donation, and stock market data.●Protected Route, Toast, Error Handling, slider, gadget, and social section.●I have done banner news, trending news, breaking news, sports news, viral news, video news, and the dashboard profile section.●I also design the all-home page section which our team members did and make the website fully responsive."
   }
 ]

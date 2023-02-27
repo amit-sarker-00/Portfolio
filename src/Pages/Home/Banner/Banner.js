@@ -3,8 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
-    <div className=" md:py-16 py-8 lg:pt-0 lg:flex-col lg:pb-0 bg-gray-900 ">
-      <div className="flex flex-col items-center sm:items-start w-full max-w-xl px-4 mx-auto lg:px-8 md:max-w-screen-xl">
+    <div className=" md:mx-6 mx-auto md:py-16 py-8 lg:pt-0 lg:flex-col lg:pb-0 bg-gray-900 ">
+      <div className="flex flex-col items-center sm:items-start w-full  px-4  lg:px-8 ">
         <div className="mb-16 lg:my-40 lg:pr-5">
           <div className="text-center sm:text-start mb-6">
             <div>
@@ -27,15 +27,15 @@ const Banner = () => {
               Front-End Developer
             </p>
             <ul className="sm:flex   gap-8 font-bold ">
-              <li className="list-none">Web Developer</li>
+              <li className="list-none ">Web Developer</li>
               <li className="relative">
                 {" "}
                 <span className="absolute -left-5 hidden sm:block bg-primary w-3 h-3 rounded-full top-1/3"></span>
-                Programmer{" "}
+                Frontend Developer{" "}
               </li>
               <li className="relative">
                 <span className="absolute -left-5 hidden sm:block bg-primary w-3 h-3 rounded-full top-1/3"></span>
-                Software Engineer{" "}
+                MERN Stack Developer{" "}
               </li>
             </ul>
           </div>

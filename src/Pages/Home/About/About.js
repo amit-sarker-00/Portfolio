@@ -5,18 +5,18 @@ const About = () => {
     <div data-aos="fade-up" data-aos-delay="40" data-aos-duration="1000">
       <p
         id="about"
-        className="text-cyan-400 font-bold text-center md:mb-20 mb-10 text-xl"
+        className="text-cyan-400 font-bold text-center md:mb-20 mb-10 text-2xl"
       >
         About
       </p>
-      <div className=" lg:px-32 px-10 grid grid-cols-1  md:grid-cols-2 gap-10  md:px-20 md:mb-20 mb-10">
+      <div className="md:mx-6 mx-auto  px-4  lg:px-8  grid grid-cols-1  md:grid-cols-2 gap-10   md:mb-20 mb-10">
         <div>
           <p className="md:text-xl">
             Hello! I'm Amit Sarker, a passionate Full Stack Developer. I develop
             web applications, mobile applications, and desktop applications. My
             core skill is based on JavaScript and I love to do most of the
             things using JavaScript. I love to make the web more open to the
-            world. I have learned programming from programming hero. I am
+            world. I have learned Web Development from programming hero. I am
             available for any kind of job opportunity that suits my interests.
           </p>
           <div className="space-x-3 mt-10">
