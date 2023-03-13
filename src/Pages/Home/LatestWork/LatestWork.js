@@ -24,7 +24,7 @@ const LatestWork = () => {
   return (
     <div className="md:mx-6 mx-auto">
       <div className="mb:mb-16 mb-8 mb:mt-32 mt-10">
-        <h1 className="text-xl font-bold text-cyan-500 text-center">
+        <h1 className="text-2xl font-bold text-cyan-500 text-center">
           Latest work
         </h1>
       </div>

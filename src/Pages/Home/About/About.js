@@ -2,7 +2,7 @@ import React from "react";
 import photo from "../../../assests/myself.png";
 const About = () => {
   return (
-    <div data-aos="fade-up" data-aos-delay="40" data-aos-duration="1000">
+    <div>
       <p
         id="about"
         className="text-cyan-400 font-bold text-center md:mb-20 mb-10 text-2xl"
@@ -16,8 +16,8 @@ const About = () => {
             web applications, mobile applications, and desktop applications. My
             core skill is based on JavaScript and I love to do most of the
             things using JavaScript. I love to make the web more open to the
-            world. I have learned Web Development from programming hero. I am
-            available for any kind of job opportunity that suits my interests.
+            world. I am available for any kind of job opportunity that suits my
+            interests.
           </p>
           <div className="space-x-3 mt-10">
             <a
@@ -36,11 +36,7 @@ const About = () => {
         </div>
         <div>
           <div className="md:pl-5 ">
-            <img
-              className="md:h-80 rounded-lg shadow border"
-              src={photo}
-              alt=""
-            />
+            <img className="md:h-80 md:w-80 rounded-lg " src={photo} alt="" />
           </div>
         </div>
       </div>
